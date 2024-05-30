@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height:70px;
+   
+}
+
+.navbar h1{
+    margin-left:20px;
+}
+.navbar ul{
+    display: flex;
+    gap:20px;
+    list-style: none;
+    margin-right:100px;
+
+}
+.navbar li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.search_bar{
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+.search_bar input{
+   border:2px solid black;
+   width:80%;
+   height:30px;
+   font-size: large;
+}
+
+.products{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin:70px;
+
+}
+.product_one,.product_two,.product_three{
+    border:2px solid black;
+    cursor: pointer;
+    height:300px;
+    width:300px;
+    text-align: center;
+}
+.product_one img{
+    height:250px;
+    width:300px;
+}
+.product_two img{
+    height:250px;
+    width:300px;
+}
+.product_three img{
+    height:250px;
+    width:300px;
+}
+
+.about_us{
+    padding:10px;
+    margin:20px;
+    
+}
+.about_us h1{
+    text-align: center;
+}
+
+.footer{
+    background-color: black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:50px;
+
+
+}
+.contact_info{
+    text-align: center;
+    font-weight: bold;
+    font-size:large;
+}
+.desc{
+    margin:10px;
+}
+
