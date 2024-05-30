@@ -1,1 +1,24 @@
+# Node.js dependencies
 node_modules/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories
+bower_components/
+
+# IDE directories
+.idea/
+.vscode/
+
+# Environment variable files
+.env
